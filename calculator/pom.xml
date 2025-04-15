@@ -8,11 +8,11 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <maven.compiler.source>23</maven.compiler.source>
-    <maven.compiler.target>23</maven.compiler.target>
+    <jdk.version>17</jdk.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spotbugs.version>4.8.3</spotbugs.version>
-    <jdk.version>23</jdk.version>
     <dependency-check.version>9.0.9</dependency-check.version>
   </properties>
 

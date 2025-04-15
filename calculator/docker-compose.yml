@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  calculator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: calculator:latest
+    container_name: calculator-app
+    stdin_open: true  # Équivalent à -i en ligne de commande
+    tty: true         # Équivalent à -t en ligne de commande

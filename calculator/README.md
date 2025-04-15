@@ -26,6 +26,23 @@ Pour exécuter l'application :
 java -jar target/calculator-1.0-SNAPSHOT.jar
 ```
 
+## Docker
+
+Pour construire l'image Docker :
+```
+docker build -t calculator .
+```
+
+Pour exécuter l'application dans un conteneur :
+```
+docker run -it calculator
+```
+
+Alternativement, vous pouvez utiliser Docker Compose :
+```
+docker-compose up --build
+```
+
 ## Analyse de sécurité
 
 ### SpotBugs
